@@ -51,7 +51,7 @@ exports.onApp = app => {
 };
 
 exports.middleware = _ => next => action => {
-  const {dialog, app} = require('electron').remote;
+  const {dialog, app} = require('@electron/remote');
 
   let confirmQuit = true;
 

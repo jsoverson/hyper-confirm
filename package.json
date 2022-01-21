@@ -35,5 +35,8 @@
   },
   "xo": {
     "space": 2
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.1"
   }
 }
